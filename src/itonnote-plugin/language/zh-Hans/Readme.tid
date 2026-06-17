@@ -6,41 +6,41 @@ title: $:/plugins/linonetwo/itonnote/language/zh-Hans/Readme
 
 <<lingo Description>>
 
-!! 功能
+!! Funcion
 
-本插件的一些预置内容。
+Algunos contenidos preestablecidos de este complemento.。
 
-!!! snippets（文本片段）
+!!! snippets（Fragmentos de texto）
 
-在编辑模式下，有一个图章按钮，点击后会列出一系列文本片段，可以一键添加预制内容，因而无需用脑记住这些复杂的文本片段了。
+En el modo de edicion, hay un boton de sello. Despues de hacer clic, se enumeraran una serie de fragmentos de texto. Puede agregar contenido predisenado con un solo clic, por lo que no es necesario recordar estos complicados fragmentos de texto.。
 
-本插件预置了一些文本片段，详见相应的 Macros 的介绍，或相应的插件的介绍：
+Este complemento ha preestablecido algunos fragmentos de texto, consulte el correspondiente Macros Introduccion o introduccion de los complementos correspondientes：
 
 * [[$:/plugins/linonetwo/itonnote/Snippets/TOCAboutCurrentTiddler]]
 * [[$:/plugins/linonetwo/itonnote/Snippets/OpenImageInGithub]]
 * [[$:/plugins/linonetwo/itonnote/Snippets/TransclusionWithEditMe]]
 
-!!! 宏
+!!! macros
 
 !!!! TransclusionWithEditMe
 
 [[$:/plugins/linonetwo/itonnote/Macros/TransclusionWithEditMe]] Usage:
 
-使用普通的 [[Transclusion|https://tiddlywiki.com/#Transclusion]] 时，你没法得知源文件在哪里，如果想要修改内容，还得打开编辑模式、复制被引用的 Tiddler 的标题，然后搜索打开编辑，比较麻烦。
+Use simple [[Transclusion|https://tiddlywiki.com/#Transclusion]] En este momento, no tienes forma de saber donde esta el archivo fuente. Si desea modificar el contenido, debe abrir el modo de edicion y copiar el archivo de referencia. Tiddler Es mas problematico buscar el titulo y luego abrirlo para editarlo.。
 
-使用此宏进行引用就很方便了：
+Es muy conveniente utilizar esta macro como referencia.：
 
 ```tid
-<<reuse-tiddler "快速创建新笔记按钮">>
+<<reuse-tiddler "Crear rapidamente un nuevo boton de nota">>
 ```
 
-会直接在引用的区块旁边显示一个「查看引文」的小浮窗，带有指向源文件的链接，直接点开编辑即可。
+Se mostrara A directamente al lado del bloque al que se hace referencia.「Ver citas」Una pequena ventana flotante con un enlace al archivo fuente, simplemente haga clic en el para editarlo.。
 
 !!!! OpenImageInGithub
 
 [[$:/plugins/linonetwo/itonnote/Macros/OpenImageInGithub]] Usage:
 
-如果您的 Wiki 中有 "webcatalog-tiddlywiki-menu-app.jpg"，您通常可以直接使用"{{webcatalog-tiddlywiki-menu-app.jpg}}"将其放到条目中，但您可以使用此宏使其可点击，并在新的浏览器标签页中打开大图：
+Si tu Wiki si "webcatalog-tiddlywiki-menu-app.jpg"，Generalmente puedes usar"{{webcatalog-tiddlywiki-menu-app.jpg}}"Coloquelo en la entrada, pero puede usar esta macro para hacer clic en el y abrir la imagen mas grande en una nueva pestana del navegador.：
 If you have `webcatalog-tiddlywiki-menu-app.jpg` in your Wiki, you normally can just `{{webcatalog-tiddlywiki-menu-app.jpg}}` to place it in your tiddler, but you can use this macro to make it clickable, and open large image in the new browser tab:
 
 ```tid

@@ -26,15 +26,15 @@ This plugin comes with a number of text snippets pre-built, see the introduction
 
 [[$:/plugins/linonetwo/itonnote/Macros/TransclusionWithEditMe]] Usage:
 
-使用普通的 [[Transclusion|https://tiddlywiki.com/#Transclusion]] 时，你没法得知源文件在哪里，如果想要修改内容，还得打开编辑模式、复制被引用的 Tiddler 的标题，然后搜索打开编辑，比较麻烦。
+Use simple [[Transclusion|https://tiddlywiki.com/#Transclusion]] En este momento, no tienes forma de saber donde esta el archivo fuente. Si desea modificar el contenido, debe abrir el modo de edicion y copiar el archivo de referencia. Tiddler Es mas problematico buscar el titulo y luego abrirlo para editarlo.。
 
-使用此宏进行引用就很方便了：
+Es muy conveniente utilizar esta macro como referencia.：
 
 ```tid
-<<reuse-tiddler "快速创建新笔记按钮">>
+<<reuse-tiddler "Crear rapidamente un nuevo boton de nota">>
 ```
 
-会直接在引用的区块旁边显示一个「查看引文」的小浮窗，带有指向源文件的链接，直接点开编辑即可。
+Se mostrara A directamente al lado del bloque al que se hace referencia.「Ver citas」Una pequena ventana flotante con un enlace al archivo fuente, simplemente haga clic en el para editarlo.。
 
 !!!! OpenImageInGithub
 

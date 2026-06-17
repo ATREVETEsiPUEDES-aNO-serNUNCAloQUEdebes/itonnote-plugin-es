@@ -1,4 +1,4 @@
-caption: 添加一个使用当前标题的 toc
+caption: Agregue un nuevo titulo que use el titulo actual. toc
 tags: [[$:/plugins/linonetwo/itonnote/Help/Index]] $:/tags/TextEditor/Snippet
 title: $:/plugins/linonetwo/itonnote/Snippets/TOCAboutCurrentTiddler
 type: text/vnd.tiddlywiki

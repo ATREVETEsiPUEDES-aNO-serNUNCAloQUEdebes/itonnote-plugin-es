@@ -1,7 +1,7 @@
 created: 20200412034056887
 tags: $:/tags/Macro
 title: $:/plugins/linonetwo/itonnote/Macros/OpenImageInGithub
-caption: 点击在新标签页打开Github大图
+caption: Haz clic para abrir en una nueva pestana.GithubPanorama general
 type: text/vnd.tiddlywiki
 
 \define view-big-image(source)

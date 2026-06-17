@@ -1,10 +1,10 @@
 # Itonnote plugin for TidGi desktop + TiddlyWiki5
 
-## 功能
+## Funcion
 
-预配置了一系列琐碎的内容，一般来自各插件的Readme和论坛讨论，但大多数人懒得看Readme，故在此直接帮忙配置好了。
+Se preconfigura una serie de contenidos triviales, generalmente de cada complemento.ReadmeDiscute en foros, pero la mayoria de la gente es demasiado vaga para leer.Readme，Por lo tanto, te ayudare a configurarlo directamente aqui.。
 
-具体预置内容介绍可见[文档站](https://tiddly-gittly.github.io/itonnote-plugin/)。
+La introduccion especifica del contenido preestablecido se puede encontrar en[Estacion de documentacion](https://tiddly-gittly.github.io/itonnote-plugin/)。
 
 ## Development
 

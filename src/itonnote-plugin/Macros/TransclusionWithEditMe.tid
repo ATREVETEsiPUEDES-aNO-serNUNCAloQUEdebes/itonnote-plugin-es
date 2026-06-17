@@ -1,6 +1,6 @@
-tags: $:/tags/Macro 自改TW
+tags: $:/tags/Macro AutocorreccionTW
 title: $:/plugins/linonetwo/itonnote/Macros/TransclusionWithEditMe
-caption: 带有「编辑此块」的引用transclusion宏
+caption: Con「Edita este bloque」Referenciastransclusionmacros
 type: text/vnd.tiddlywiki
 
 \define reuse-pane(content)
@@ -35,7 +35,7 @@ type: text/vnd.tiddlywiki
 
 \define reuse-tiddler(title)
 <$macrocall $name="reuse-pane" content="""
-查看引文：[[$title$]]
+Ver citas：[[$title$]]
 """ />
 
 {{$title$}}

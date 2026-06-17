@@ -8,9 +8,9 @@ enabled: no
 <$list filter="[[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]]" variable="lang">
 <$list filter="[<lang>search[zh]]">
 
-为了更好的体验，我们建议您
+Para una mejor experiencia, te recomendamos que
 <$button>
-打开 CPL 安装插件
+abierto CPL Instalar complementos
 <$action-sendmessage $message="tm-close-tiddler" />
 <$action-sendmessage $message="tm-navigate" navigateTo="$:/plugins/Gk0Wk/CPL-Repo/panel" />
 </$button>
